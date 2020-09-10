@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Curso - Introdução ao Firebase</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <!-- BOOTSTRAP-->
+    <!-- Última versão CSS compilada e minificada -->
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="public/css/styles.css" />
+  </head>
+
+  <body>
+    <h1 class="text-center">Bem vindo ao Firebase</h1>
+
+    <ul>
+      <li>
+        <a href="real-time-database.html">Real Time Database</a>
+      </li>
+      <li><a href="authentication.html">Autenticação</a></li>
+    </ul>
+
+    <script src="//code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="//www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+
+    <script src="//www.gstatic.com/firebasejs/7.18.0/firebase.js"></script>
+
+    <!-- Sobre aula de configuração
+   https://www.youtube.com/watch?v=EiorSoFZ3JU&list=PLHlHvK2lnJnccBL9grcoRxv8CsLa9Q_4q&index=8 --->
+
+    <!-- 
+      1 - iniciando o npm no projeto: npm init -y (cria o package.json);
+      2 - instalando o firebase no projeto: npm install firebase dentro da pasta do projeto;
+      3 - quando temos o firebase na pasta do projeto,
+      podemos indicar da seguinda forma
+      <script>node_modules/firebase/firebase.js</script>
+
+   -->
+
+    <!--
+      Isso substitue a linha acima quando temos o firebase baixado no nosso projeto
+      <script>node_modules/firebase/firebase.js</script>
+    -->
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="//www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+
+    <script src="public/js/app.js"></script>
+  </body>
+</html>

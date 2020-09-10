@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Curso - Introdução ao Firebase</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <h1 class="text-center">Real Time Database</h1>
+
+    <ul id="usersList"></ul>
+    <hr>
+
+    <div class="col-md-4">
+      <form>
+        <div class="form-group"> <!--elemento do bootstrap-->
+          <labe for="nameInput">Nome</label>
+            <input type="text" class="form-control" id="nameInput" placeholder="Nome">
+        </div>
+        <div class="form-group">        
+          <labe for="ageInput">Idade</label>
+            <input type="number" class="form-control" id="ageInput" placeholder="Idade">
+        </div>
+        <button class="btn btn-lg btn-block btn-primary" id="addButton">Adicionar</button>
+
+      </form>
+    </div>
+
+    <br><br>
+    <a href="index.html" class="href">Voltar para Home</a>
+
+    <script src="//code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <script src="//www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    
+    <script src="//www.gstatic.com/firebasejs/7.18.0/firebase.js"></script>
+
+    
+    <script src="//www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/real-time-database.js"></script>
+  </body>
+</html>
